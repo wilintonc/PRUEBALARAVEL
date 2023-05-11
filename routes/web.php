@@ -21,3 +21,4 @@ use App\Http\Controllers\UserController;
 
 Route::get('/user', [UserController::class, 'index']);
 Route::get('/soporte', [UserController::class, 'create']);
+Route::get('/mono', [UserController::class, 'create']);
